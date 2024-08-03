@@ -1,0 +1,29 @@
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    color: var(--yellow-text-color);
+
+    img{
+        width: 30%;
+    }
+    .directions{
+        font-size: 24px;
+        margin: 40px 0;
+    }
+    .button-container{
+        position: relative;
+        
+        .press-enter{
+            position: absolute;
+            right: -85px;
+            top: 12px;
+            font-size: 12px;
+            span{
+                font-weight: bold;
+            }
+        }
+    }
+}

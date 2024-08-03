@@ -1,0 +1,14 @@
+.common-btn{
+    color: rgb(21, 16, 0);
+    background-color: var(--yellow-button-color);
+    border-radius: 4px;
+    padding: 8px 18px;
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+.common-btn:hover{
+    background-color: var(--yellow-button-hover-color);
+    cursor: pointer;
+}

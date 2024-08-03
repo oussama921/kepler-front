@@ -1,0 +1,14 @@
+/* You can add global styles to this file, and also import other style files */
+@import 'assets/styles/fonts.scss';
+@import 'assets/styles/colors.scss';
+@import 'assets/styles/buttons.scss';
+
+body{
+    background-image: url('assets/images/background-img.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin: 0;
+    height: 100vh;
+    font-family: Karla;
+}
