@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 25" width="46" height="25">
+	<title>Screenshot 2024-08-04 173443</title>
+	<defs>
+		<image  width="46" height="25" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAZCAMAAAB5GOwQAAAAAXNSR0IB2cksfwAAAF1QTFRF/8MV5K8T6LIT6bMT464TlXELFRAAkm8LkG4LkW8L4KsSFxIAg2QKFhEA2KYSgmQKhWUKhGUKfV8J3qkS26cSimkKhmYKfF8JgGIKi2sLiGgKjGsLclcIMiYDMycDBe08nAAAAB90Uk5TALBwYMD///////D//////////////////////////xXcy+IAAADPSURBVHicjdTbCoJAFAXQvRHLJLAwKej/P62XlC5QaBlSDplzOc7ky+jZa44XxiFAdvjniPgCERN8/KGTDlHNlC0wuwX18gnMyazuL9JLQK/vag7zpu1PAv373kC8IIqrKqyOwd7ISg4zff1HQYS9lhNBr6d0Kj795R5vJhSrU/rHJ7xd5WQi1ujJhIrGnVS4n86tXHo6gxtCfHeTY3sejPylLI7dSQ05KzXa/4HNh/6Qegtc9+6acPnohRUkcOxLNRQHN5I4Nsln72kqIXkDnrRVTktWkwYAAAAASUVORK5CYII="/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>

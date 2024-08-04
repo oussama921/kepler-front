@@ -1,0 +1,9 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 46 24" width="46" height="24">
+	<title>Screenshot 2024-08-04 173402</title>
+	<defs>
+		<image  width="46" height="24" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAYCAMAAACyRD+1AAAAAXNSR0IB2cksfwAAAEhQTFRF/8MVuI0PQzMEIxoBuo8Ph2cKFRAAjWwLfF8Jg2QKimoLimkKhGUKi2sL3qkSFxIA4q0ShWUKjm0L464TGRMAnHcMkW8LnnkMFOmANwAAABh0Uk5TAP///////////////////9D//8D/////6vsbmwAAAKpJREFUeJyN0ssOgjAQheH5vUQJhGiM7/98ujHqgihqJUIFyrRDN52c82XSRRHlAOIWL61RsnUb8pjFt59uWFYz+F9rfsIHWvEh7/SKWvUBz95e9VOcD43qiWndE9WqJ661hESnZKT0NCWpJzlpHTYYOuiw9LjF1KMeWw8Fkrd/z9VRLVI8f9fmTkll7O73Z9Auzy9J7X3BgZu52/vSIcer7M6mbh7uZH/6AnxkU07x6Y6AAAAAAElFTkSuQmCC"/>
+	</defs>
+	<style>
+	</style>
+	<use id="Background" href="#img1" x="0" y="0"/>
+</svg>
