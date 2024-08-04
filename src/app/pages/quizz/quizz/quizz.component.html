@@ -1,0 +1,6 @@
+<div class="container" @fadeAnimation>
+    <app-stepper *ngIf="!loading" [quizz]="quizz" [(selectedStep)]="step"></app-stepper>
+    <app-questionnaire *ngIf="!loading" [questionnaire]="quizz[step]" [showSubmit]="step==quizz.length-1"></app-questionnaire>
+</div>
+
+<div *ngIf="loading"></div>

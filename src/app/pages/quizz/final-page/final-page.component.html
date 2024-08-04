@@ -1,0 +1,24 @@
+<div class="container" @fadeAnimation *ngIf="showElement">
+    <div>
+        You've entered! Good luck 🤞
+    </div>
+    <div>
+        Now, why not share this quiz with your friends? They could take you if they win 😉
+    </div>
+    <div>
+
+        <a href="https://www.facebook.com/oussama.bedoui.522" target="_blank">
+            <img src="/assets/images/facebook.svg" alt="">
+        </a>
+        <img src="/assets/images/twitter.svg" alt="">
+        
+        <a href="https://www.linkedin.com/in/oussama-bedoui-26167212b/" target="_blank">
+            <img src="/assets/images/linkedin.svg" alt="">
+        </a>
+
+    </div>
+    <div class="common-btn" [routerLink]="'/home'">
+        again
+        <app-press-enter></app-press-enter>
+    </div>
+</div>

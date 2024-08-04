@@ -1,0 +1,8 @@
+<div class="container">
+    <div *ngFor="let step of quizz;let index=index"  class="step-container">
+        <div class="step" (click)="selectStep(index)" [ngClass]="{'selected-step':index==selectedStep}">
+            {{index+1}}
+        </div>
+        <div *ngIf="index!=quizz.length-1" class="line"></div>
+    </div>
+</div>

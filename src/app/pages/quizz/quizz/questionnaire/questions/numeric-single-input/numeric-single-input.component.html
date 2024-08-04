@@ -1,0 +1,11 @@
+<div class="container">
+    <input [(ngModel)]="value" type="number" placeholder="Type your numeric answer here...">
+    <div>
+        <div (click)="incrementNumber()" class="button-container">
+            <img src="/assets/images/arrow-up.svg"  alt="">
+        </div>
+        <div (click)="decrementNumber()" class="button-container">
+            <img src="/assets/images/arrow-bottom.svg"  alt="">
+        </div>
+    </div>
+</div>

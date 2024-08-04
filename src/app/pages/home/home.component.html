@@ -1,17 +1,14 @@
-<div class="container">
+<div class="container" *ngIf="showElement"  @fadeAnimation>
     <img src="/assets/images/first-img.gif" alt="">
-
+    
     <div class="directions">
         Answer one simple question to win a trip to Barcelona
     </div>
-
+    
     <div class="button-container">
-        <div class="common-btn" [routerLink]="['/quizz']">
+        <div class="common-btn" (click)="navigate()">
             Reveal question
-        </div>
-
-        <div class="press-enter">
-            press <span>Enter ↵</span>
+            <app-press-enter></app-press-enter>
         </div>
     </div>
 </div>

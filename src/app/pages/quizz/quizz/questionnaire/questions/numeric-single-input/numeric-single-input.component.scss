@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    
+    color: white;
+    font-size: 30px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+    background-color: transparent;
+    border: none;
+    border-bottom: 1px solid var(--border-gray);
+    padding-bottom: 10px;
+    font-family: Karla;
+}
+input:focus{
+    border-bottom: 2px solid white;
+}
+input:focus-visible {
+    outline: none; /* Ensure focus-visible outline is removed */
+    
+}
+input::placeholder{
+    color: rgba(255, 255, 255, 0.3); ;
+
+}
+
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    display: none; /* Hide the default spinner buttons */
+}
+.button-container{
+    background-color: var(--yellow-button-color);
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+    margin-bottom: 5px;
+    display: flex;
+    align-items: center;
+    img{
+        height: 10px;
+        padding:6px 10px;
+    }
+}
+.button-container:hover{
+    background-color: var(--yellow-button-hover-color);
+    cursor: pointer;
+}

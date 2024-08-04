@@ -1,0 +1,7 @@
+<div class="container">
+    <div *ngFor="let choice of choices" class="choice" (click)="selectChoice(choice)">
+        {{choice.text}}
+        <div *ngIf="!choice.selected" class="checkbox"></div>
+        <img *ngIf="choice.selected" src="/assets/images/valid.svg"  alt="">
+    </div>
+</div>

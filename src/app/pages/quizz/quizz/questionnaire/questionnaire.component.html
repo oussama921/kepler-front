@@ -1,0 +1,23 @@
+<div class="container" *ngIf="showElement" @fadeAnimation>
+    <div class="questions-container" id="style-1">
+
+        <div *ngFor="let question of questionnaire.questions;let index=index">
+            <div class="question">
+                <div class="index">{{index+1}}</div>
+                <img src="/assets/images/arrow.svg"  alt="">
+                <div class="text">
+                    {{question.text}}
+                </div>
+            </div>
+            <div class="question-input" [ngSwitch]="question.Type">
+                <app-input-box *ngSwitchCase="QuestionType.InputBox"></app-input-box>
+                <app-multi-choice *ngSwitchCase="QuestionType.MultiChoiceQuestion" [choices]="question.choices"></app-multi-choice> 
+                <app-numeric-single-input *ngSwitchCase="QuestionType.NumericSingleInput" ></app-numeric-single-input>
+                <app-single-choice *ngSwitchCase="QuestionType.SingleChoiceQuestion" [choices]="question.choices"></app-single-choice>
+            </div>
+        </div>
+        <div *ngIf="showSubmit" class="common-btn" (click)="navigate()" >
+            Submit
+        </div>
+    </div>
+</div>

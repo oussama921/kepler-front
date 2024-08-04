@@ -1,11 +1,17 @@
 import { NgModule } from '@angular/core';
 import { QuizzRoutingModule } from './quizz.routes';
 import { QuizzComponent } from './quizz/quizz.component';
-import { InputBoxComponent } from './questions/input-box/input-box.component';
-import { MultiChoiceComponent } from './questions/multi-choice/multi-choice.component';
-import { NumericSingleInputComponent } from './questions/numeric-single-input/numeric-single-input.component';
-import { SingleChoiceComponent } from './questions/single-choice/single-choice.component';
 import { QuizzService } from '../../services/quizz.service';
+import { StepperComponent } from './quizz/stepper/stepper.component';
+import { CommonModule } from '@angular/common';
+import { QuestionnaireComponent } from './quizz/questionnaire/questionnaire.component';
+import { InputBoxComponent } from './quizz/questionnaire/questions/input-box/input-box.component';
+import { MultiChoiceComponent } from './quizz/questionnaire/questions/multi-choice/multi-choice.component';
+import { NumericSingleInputComponent } from './quizz/questionnaire/questions/numeric-single-input/numeric-single-input.component';
+import { SingleChoiceComponent } from './quizz/questionnaire/questions/single-choice/single-choice.component';
+import { FormsModule } from '@angular/forms';
+import { SharedModule } from '../../shared/shared.module';
+import { FinalPageComponent } from './final-page/final-page.component';
 
 @NgModule({
   declarations: [
@@ -13,10 +19,16 @@ import { QuizzService } from '../../services/quizz.service';
     InputBoxComponent,
     MultiChoiceComponent,
     NumericSingleInputComponent,
-    SingleChoiceComponent
+    SingleChoiceComponent,
+    StepperComponent,
+    QuestionnaireComponent,
+    FinalPageComponent
   ],
   imports: [
-    QuizzRoutingModule
+    CommonModule,
+    QuizzRoutingModule,
+    FormsModule,
+    SharedModule
   ],
   providers: [
     QuizzService
